@@ -1,0 +1,20 @@
+#Improvements 
+1- Store API key and credentials in Azure Key Vault or any relevant vault service
+2- Make &units=metric configurable if needed
+3- API retries
+4- Handling of null/missing data
+5- Add a check to see if the weather data has been already added (duplicate check)(Idempotency)
+6- Improve the performance of the APIs by doing the calls in Parallel 
+7- Find a way to communicate the type of used metric to the consumer
+8- Add retries to the HTTP client
+9- Create documentation using GhostDoc for both projects
+10- Return more expressive view models to the control (create new DTOs) and map with AutoMapper
+11- Security using proper CORS and OIDC
+12- More handling of the different corner cases in the API
+13- Differentiaite zero and data does not exist 
+
+# Challenges
+
+1- Partition keys
+2- Identifying corner cases when we get the same data from the API
+3- Ensuring a very high performance of the API to keep the power of React
