@@ -55,10 +55,10 @@ const Home = () => {
             <div className="container container-full-height">
                 <div className="row row-full-height">
                     <div className="col-md-6 mb-4 col-full-height">
-                        <BarChartPage title="Minimum Temperature Per City" options={minimumTemperatureChartOptions} data={minimumTempratureData}></BarChartPage>
+                        <BarChartPage title="Minimum Temperature Per City (Celsius)" options={minimumTemperatureChartOptions} data={minimumTempratureData}></BarChartPage>
                     </div>
                     <div className="col-md-6 mb-4 row-full-height col-full-height">
-                        <BarChartPage title="Maximum Wind Speed Per City" options={maximumWindChartOptions} data={maximumWindSpeedData}></BarChartPage>
+                        <BarChartPage title="Maximum Wind Speed Per City (m/s)" options={maximumWindChartOptions} data={maximumWindSpeedData}></BarChartPage>
                     </div>
                 </div>
             </div>

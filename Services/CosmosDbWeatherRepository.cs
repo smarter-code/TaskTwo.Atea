@@ -232,7 +232,7 @@ public class CosmosDbWeatherRepository : IWeatherRepository
             }
             catch (CosmosException ex)
             {
-                //Todo: Find a better way to through an exception
+
                 Console.WriteLine($"Error saving data. StatusCode: {ex.StatusCode}, Message: {ex.Message}");
             }
         }
